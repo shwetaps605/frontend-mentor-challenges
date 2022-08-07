@@ -1,0 +1,35 @@
+body {
+    background-color: #D5E1EF;
+}
+
+.card {
+    max-width:350px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 15px;
+    margin: auto;
+}
+
+.card-image {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px 18px;
+}
+
+.card-body > h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.card-body > p {
+    font-size: 18px;
+    color:rgb(160, 160, 160);
+}
